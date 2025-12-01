@@ -9,6 +9,7 @@ Landing page for MP3-Downloader - UI -HTML CSS Bootstrap
 3. Download andn listern songs anywhere , even if you are in offline
 
 ![alt text](image.png)
+![alt text](image-1.png)
 
 UI point of view I focused on ,
 
