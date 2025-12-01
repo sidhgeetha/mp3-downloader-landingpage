@@ -13,7 +13,7 @@ Landing page for MP3-Downloader - UI -HTML CSS Bootstrap
 ![alt text](image.png)
 ![alt text](image-1.png)
 
-## 🚀 UI point of view I focused on ,
+## 🚀 UI point of view  
 
 - Build a landing page for MP3 Downloader application.
 - Implement the responsive layout using Bootstrap layouts
