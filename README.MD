@@ -8,12 +8,12 @@ Landing page for MP3-Downloader - UI -HTML CSS Bootstrap
 2. Download songs by category.
 3. Download andn listern songs anywhere , even if you are in offline
 
-link : https://mp3-downloader-tamilsongs.netlify.app/
+## 🚀 : https://mp3-downloader-tamilsongs.netlify.app/
 
 ![alt text](image.png)
 ![alt text](image-1.png)
 
-UI point of view I focused on ,
+## 🚀 UI point of view I focused on ,
 
 - Build a landing page for MP3 Downloader application.
 - Implement the responsive layout using Bootstrap layouts
@@ -23,7 +23,7 @@ UI point of view I focused on ,
 
 Technology: HTML, CSS, Bootstrap
 
-How did I approached UI:
+## 🚀 How did I approached UI:
 
 - Research:
   Inspired with lot of designs by google search, Referring the music apps and come up with my own ideas. With the UXUI designing knowledge , I try to focus overall look, font , colour, arrangement of elements that allows user to scan card easily.
@@ -41,7 +41,7 @@ How did I approached UI:
   Build a responsive landing page for mp3 downloader app .
   Used bootstrap classes for layout structure and styling the components to focus on easy navigation and guide the user effectively.
 
-Tools Used
+## 🚀 Tools Used
 • VSCode for coding and Live Preview plugin
 • Netlify
 • Github
