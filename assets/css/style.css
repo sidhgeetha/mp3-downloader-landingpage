@@ -157,12 +157,7 @@ body {
     margin-bottom: 2px;
 } 
 
-.footer-items ul li{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    gap:1;
-}
+/* */
 .container {
     padding: .5rem;
   }
