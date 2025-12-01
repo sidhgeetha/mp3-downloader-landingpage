@@ -27,11 +27,11 @@
 
     </head>
 
-    <body class="bg-dark">
+    <body>
 
         <!-- navigation -->
         <div class="navigation-section ">
-            <nav class="navbar navbar-dark navbar-expand-lg p-4 d-flex  ">
+            <nav class="navbar navbar-expand-lg p-4 d-flex  ">
                 <div
                     class="container d-flex justify-content-center align-items-center gap-2">
 
@@ -109,7 +109,7 @@
             <!-- hero section -->
 
             <section
-                class="hero-section bg-secondary d-flex flex-column justify-content-center align-items-center text-center m-5">
+                class="hero-section d-flex flex-column justify-content-center align-items-center text-center m-5">
                 <h2 class="text-white fs-1 fw-bold">Download Your Favorite Track
                     in a Single
                     Click</h2>
@@ -122,11 +122,11 @@
 
             <!-- CARD section for download by catagory -->
 
-            <section id="catagory" class=" text-white  m-5 border-0 ">
-                <div
-                    class="row text-center row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            <div class=" container text-white">
+                <div class="row justify-content-center">
 
-                    <div class=" col ">
+                    <div
+                        class=" align-items-center col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
 
                         <div
                             class="catagory-list d-flex flex-column justify-content-center align-items-center gap-3">
@@ -162,7 +162,8 @@
 
                     </div>
 
-                    <div class=" col  ">
+                    <div
+                        class=" align-items-center col-12 col-sm-6 col-md-4 col-lg-3 ">
 
                         <div
                             class="catagory-list d-flex flex-column justify-content-center align-items-center gap-3">
@@ -225,7 +226,8 @@
                         </div>
 
                     </div>
-                    <div class=" col ">
+                    <div
+                        class=" align-items-center col-12 col-sm-6 col-md-4 col-lg-3 ">
 
                         <div
                             class="catagory-list d-flex flex-column justify-content-center align-items-center gap-3">
@@ -280,7 +282,8 @@
 
                     </div>
 
-                    <div class=" col ">
+                    <div
+                        class=" align-items-center col-12 col-sm-6 col-md-4 col-lg-3">
 
                         <div
                             class="catagory-list d-flex flex-column justify-content-center align-items-center gap-3">
@@ -339,15 +342,74 @@
 
                 </div>
 
-            </section>
+            </div>
+
+            <!-- Cards- artists -->
+
+            <div class="container">
+
+                <div class="row gap-3 justify-content-center pt-5">
+
+                    <div
+                        class="card bg-dark align-items-center col-12 col-sm-6 col-md-4 col-lg-3  "
+                        style="width: 17rem;">
+                        <img src="/assets/images/ar.jpg"
+                            class="card-img-top pt-2 mb-2"
+                            alt="...">
+                        <div class="card-body">
+
+                            <a href="#" class=" card-button ">Download</a>
+                        </div>
+                    </div>
+
+                    <div
+                        class="card bg-dark align-items-center col-12 col-sm-6 col-md-4 col-lg-3 "
+                        style="width: 17rem;">
+                        <img src="/assets/images/ilayaraja.jpg"
+                            class="card-img-top pt-2 mb-2"
+                            alt="...">
+                        <div class="card-body">
+
+                            <a href="#" class="  card-button">Download</a>
+                        </div>
+                    </div>
+
+                    <div
+                        class="card bg-dark align-items-center col-12 col-sm-6 col-md-4 col-lg-3 "
+                        style="width: 17rem;">
+                        <img src="/assets/images/ilayaraja.jpg"
+                            class="card-img-top pt-2 mb-2"
+                            alt="...">
+                        <div class="card-body">
+
+                            <a href="#" class="  card-button">Download</a>
+                        </div>
+                    </div>
+
+                    <div
+                        class="card bg-dark align-items-center col-12 col-sm-6 col-md-4 col-lg-3 "
+                        style="width: 17rem;">
+                        <img src="/assets/images/ilayaraja.jpg"
+                            class="card-img-top pt-2 mb-2"
+                            alt="...">
+                        <div class="card-body">
+
+                            <a href="#" class="  card-button">Download</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
 
             <!-- features section -->
 
-            <section class="row feature-section bg-dark mt-0 ms-5 me-5 mb-0"
-                style="margin-bottom: 0;">
+            <!-- <section class="row feature-section p-5 mt-5 h-100">
 
-                <div class="accordion mb-0" id="accordionExample">
-                    <h5 class=" text-white fw-bold mb-5">
+                
+
+                <div class="col accordion" id="accordionExample">
+                    <h5 class=" text-white fw-bold mb-4">
                         Top Features
                     </h5>
                     <div class="accordion-item ">
@@ -465,34 +527,225 @@
                         </div>
 
                     </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button collapsed text-white "
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive"
+                                aria-expanded="false"
+                                aria-controls="collapseFive">
+                                Find history
+                            </button>
+                        </h2>
+                        <div id="collapseFive"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                quickly find songs form last played list.
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button collapsed text-white "
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive"
+                                aria-expanded="false"
+                                aria-controls="collapseFive">
+                                Find history
+                            </button>
+                        </h2>
+                        <div id="collapseFive"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                quickly find songs form last played list.
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button
+                                class="accordion-button collapsed text-white "
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive"
+                                aria-expanded="false"
+                                aria-controls="collapseFive">
+                                Find history
+                            </button>
+                        </h2>
+                        <div id="collapseFive"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                quickly find songs form last played list.
+                            </div>
+                        </div>
+
+                    </div>
 
                 </div>
-            </section>
+            </section> -->
+
+            <div class="container ">
+                <div class="row justify-content-center mt-5">
+                    <div class="col-12 col-md-8 col-lg-6 p-4" style="width:100%">
+                        <div class="accordion accordion-dark"
+                            id="accordionExample">
+
+                            <h5 class="text-white fw-bold mb-4 fs-1">Top
+                                Features</h5>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button
+                                        class="accordion-button collapsed text-white"
+                                        type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne"
+                                        aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                        Single click download
+                                    </button>
+                                </h2>
+                                <div id="collapseOne"
+                                    class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Download your favorite songs directly in
+                                        app and listen even if you are offline.
+                                        Easily manage your downloads.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button
+                                        class="accordion-button collapsed text-white"
+                                        type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo"
+                                        aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        Download and play offline
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo"
+                                    class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Listen to your favorite tracks without
+                                        an internet connection. Enjoy your music
+                                        wherever you are.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button
+                                        class="accordion-button collapsed text-white"
+                                        type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree"
+                                        aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Create playlist
+                                    </button>
+                                </h2>
+                                <div id="collapseThree"
+                                    class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Create a playlist with your favorite
+                                        songs and share it with friends.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button
+                                        class="accordion-button collapsed text-white"
+                                        type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour"
+                                        aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        Search by Artists
+                                    </button>
+                                </h2>
+                                <div id="collapseFour"
+                                    class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Find your favorite tracks from your
+                                        favorite artists and enjoy their
+                                        collection.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button
+                                        class="accordion-button collapsed text-white"
+                                        type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive"
+                                        aria-expanded="false"
+                                        aria-controls="collapseFive">
+                                        Find history
+                                    </button>
+                                </h2>
+                                <div id="collapseFive"
+                                    class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Quickly find songs from your last played
+                                        list.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <!-- HOW IT WORKS -->
 
-            
+            <!-- <div class=" demo-section container text-center mt-0 text-center">
 
-            <div class=" demo-section container text-center mt-0 text-center">
-
-                <div class="row d-flex justify-content-center align-items-center gap-0 mb-0 mt-2 " >
-                     <h5 class=" text-white fw-bold fs-1 mt-0 d-flex align-items-start">
+                <div
+                    class="row d-flex justify-content-center align-items-center gap-0 mb-0 mt-2 ">
+                    <h5
+                        class=" text-white fw-bold fs-1 mt-0 d-flex align-items-start">
                         How it works
                     </h5>
                 </div>
-               
-                <div class="row d-flex justify-content-center align-items-center gap-0 mb-4 ">
+
+                <div
+                    class="row d-flex justify-content-center align-items-center gap-0 mb-4 ">
                     <div class="col mt-5 col-12 col-md-6 ">
-                       <img class="demo" src="/assets/images/MP3PAGE.PNG" style="height:400px">
+                        <img class="demo" src="/assets/images/MP3PAGE.PNG"
+                            style="height:400px">
                     </div>
                     <div class="col col-12 col-md-6 mt-4 mt-md-0">
-                       <p class="text-white fw-bold ">Understanding How It Works</p>
-                <button
-                    class="btn btn-light ms-2 fw-bold border-0" style="font-size: 16px;">READ HERE</button>
+                        <p class="text-white fw-bold ">Understanding How It
+                            Works</p>
+                        <button
+                            class="btn btn-light ms-2 fw-bold border-0"
+                            style="font-size: 16px;">READ HERE</button>
                     </div>
-                   
+
                 </div>
-            </div>
+            </div> -->
 
             <!-- Footer -->
 
