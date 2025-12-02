@@ -10,8 +10,8 @@ Landing page for MP3-Downloader - UI -HTML CSS Bootstrap
 
 ## 🚀 : https://mp3-downloader-tamilsongs.netlify.app/
 
-![alt text](image-2.png)
 
+![alt text](image-3.png)
 ![alt text](image-1.png)
 
 ## 🚀 UI point of view  
