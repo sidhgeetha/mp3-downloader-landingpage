@@ -10,7 +10,7 @@ Landing page for MP3-Downloader - UI -HTML CSS Bootstrap
 
 ## 🚀 : https://mp3-downloader-tamilsongs.netlify.app/
 
-![alt text](image.png)
+![alt text](/Users/geethasidhambaram/Documents/mp3.png)
 ![alt text](image-1.png)
 
 ## 🚀 UI point of view  
@@ -46,7 +46,7 @@ Technology: HTML, CSS, Bootstrap
 • Netlify
 • Github
 
-Challenges faced:
+Challenges faced: Media query 
 
 ## 💻 Technologies Used
 
